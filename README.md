@@ -12,13 +12,13 @@ Printer is sending an email message with its counters by configured schedule. Th
 5. You can turn on a test message to see if everything is working properly
 
 Counters message example:
-[Model Name], Pinter number 1
-[Serial Number], 123456789abc
-[Send Date], 11/09/2024
-[Total Counter], 139102
-[Total Color Counter], 0
-[Total Black Counter], 139102
-[Total Scan/Fax Counter], 14858
+[Model Name], Pinter number 1`n
+[Serial Number], 123456789abc`n
+[Send Date], 11/09/2024`n
+[Total Counter], 139102`n
+[Total Color Counter], 0`n
+[Total Black Counter], 139102`n
+[Total Scan/Fax Counter], 14858`n
 
 # Example of the table (in MySQL)
 
