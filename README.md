@@ -2,7 +2,7 @@
 Get Konica Minolta's counters using imap_tools
 
 # How it works
-Printer is sending an email message with its counters by configured schedule. The python script is reading mails by imap_tools then creating a data frame using pandas. The script includes a connection to a MySQL database. The code creates a table for each month to store the data (bellow you can see a example of the table). The table is exporting to a .csv file, then from .csv to the .xlsx (final file).
+Printer is sending an email message with its counters by configured schedule. The python script is reading mails by imap_tools then creating a data frame using pandas. The script includes a connection to a MySQL database. The code creates a table for each month to store the data (bellow you can see an example of the table). The table is exporting to a .csv file, then from .csv to the .xlsx (final file).
 
 # How printers are configured to send mails with counters
 1. Login to pirnter's web admin panel
@@ -20,6 +20,6 @@ Counters message example: <br />
 [Total Black Counter], 139102 <br />
 [Total Scan/Fax Counter], 14858
 
-# Example of the table (in MySQL)
+# Example table (in MySQL)
 
 ![image](https://github.com/user-attachments/assets/323362ce-c2c7-4e9f-b14d-67a6bf91733a)
